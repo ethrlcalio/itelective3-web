@@ -8,14 +8,14 @@ This project is a skills inventory system designed for the Ateneo de Davao Unive
 
 ---
 
-### Possible sub-system
+### Possible Sub-Systems
 * Student Information System
 * Form System (to determine skills)
 * History System
 
 ---
 
-#### Frameworks Included
+### Frameworks Included
 * <img src="firestore.png" alt="drawing" width="30"/> Firestore
 * <img src="express.png" alt="drawing" width="30"/> Express
 * <img src="angular.png" alt="drawing" width="30"/> Angular
