@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Card</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
+    <script>
+      function meow(){
+        window.prompt("Meow!");
+      }
+    </script>  
+  </head>
 <body>
   <div class="w-full min-h-screen bg-gray-300 p-6">
     <br><br>
     <div class="absolute inset-x-0 top-7 w-2/6 bg-gray-100 z-0 rounded-md flex align-center shadow-2xl m-auto h-20"></div>
     <div class="absolute inset-x-0 top-12 w-2/5 bg-gray-50 z-10 rounded-md flex align-center shadow-2xl m-auto h-20"></div>
     <div class="relative flex bg-white rounded-md shadow-2xl w-2/4 m-auto z-20">
-      <button class="absolute h-20 w-20 -right-10 top-36 bg-yellow-300 opacity-80 rounded-full pb-2 text-6xl">+</button>
+        <button class="absolute h-20 w-20 -right-10 top-36 bg-yellow-300 opacity-80 rounded-full pb-2 text-6xl" onclick="meow()">+</button>
+
         <img class="static rounded-l-md" width="40%" src="https://scontent.fcgy2-2.fna.fbcdn.net/v/t1.6435-9/46872009_10210678173748801_3456480377198084096_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGJZXMHYeIHZ0Rp_YaiL5xcQIhXLBsw65JAiFcsGzDrkkew8o-3gpluBnL0R3HVaqw&_nc_ohc=mLgy218XEGAAX8zELw1&_nc_ht=scontent.fcgy2-2.fna&oh=00_AfAYj9TCclniM2SVh5pVVWo8PBHavOlnRgTYp066RuXnPA&oe=63E623B5">
         
         <div class="px-20 pt-16 pb-8 relative">
@@ -24,6 +30,7 @@
             <div><p class="text-center"><span class="text-black text-opacity-50 text-2xl">followers</span><br><span class="text-black text-opacity-50 text-4xl">1689</span></p></div>
           </div>
         </div>
+
         <div class="p-5 pt-8">
           <div class="bg-black bg-opacity-10 rounded-full px-3 text-xl">
               PRO
